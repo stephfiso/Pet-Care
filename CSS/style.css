@@ -1,14 +1,160 @@
-.navbar-custom {
-    background-color: #FFC300;
+
+/*Start Header*/
+header{
+  margin-left: 10%;
+  margin-right: 10%;
+
 }
 
-.navbar-brand {
-    font-family: 'Nova Script';
-    color: #000;
-    
+#background{
+  background-color: #FFC300;
 }
 
-@font-face {
-    font-family: "Nova Script";
-    src: url('../Fonts/NovaScript-Regular.ttf') format('ttf');
+.navbar-text{
+  margin-left: auto;
 }
+
+.navbar-brand{
+  padding-bottom: 0px;
+}
+
+.navbar .mr-auto{
+  padding-bottom: 0%;
+}
+
+
+
+#settingsIcon{
+  width: 30px;
+  height: auto;
+  margin-left: 1%;
+}
+
+a{
+  font-family: 'Kumbh Sans';
+  font-size: 25px;
+  color: black !important;
+  transition: 0.5s;
+}
+
+a:hover{
+  color: #034EFD !important;
+  transition: 0.2s;
+}
+
+a.navbar-brand{
+  font-family: 'NTR';
+  font-size: 30px;
+  color: black;
+}
+
+#profImage{
+  transition: 0.2s;
+  height: 40px;
+  width: auto;
+}
+
+#profImage:hover{
+  height: 42px;
+  width: auto;
+}
+
+.nav-link{
+  padding-bottom: 0%;
+}
+
+.navbar-text{
+  padding-bottom: 0%;
+}
+
+/*End Header*/
+
+
+
+/*Start Hero*/
+.jumbotron{
+  height: 400px;
+  padding-top: 2%;
+  background-image: url(../images/hero.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#jumboOverlay{
+  background-color: rgba(0, 0, 0, 0.18);
+  border-radius: 25px;
+  box-shadow:  0px 0px 20px 20px #0000002c;
+}
+
+.jumboContent{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-family: 'Kumbh Sans';
+}
+
+.display-4{
+  margin-top: 4%;
+  text-shadow: 2px 2px 8px black;
+}
+
+.lead{
+  text-shadow: 2px 2px 6px black;
+  font-size: 30px;
+}
+
+#jumbotron a{
+  color: white;
+}
+
+#startbutton{
+  color: white !important;
+  font-family: 'Kumbh Sans';
+  border-color: white;
+  box-shadow: 2px 2px 50px black;;
+}
+
+.btn{
+  background-color: #E9760B;
+
+}
+
+
+/*End Hero*/
+
+/**/
+
+/*Start Body*/
+
+body{
+
+}
+
+.landing{
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.LandingContent{
+
+  width: 100%;
+}
+
+
+#review{
+  width: 100%;
+  padding-left: 5%;
+  margin-bottom: 3%;
+}
+/*End Body*/
+
+
+
+/*Start Footer*/
+footer{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/*End Footer*/
