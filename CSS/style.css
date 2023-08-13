@@ -32,7 +32,7 @@ header{
 
 a{
   font-family: 'Kumbh Sans';
-  font-size: 25px;
+  font-size: 30px !important;
   color: black !important;
   transition: 0.5s;
 }
@@ -68,6 +68,39 @@ a.navbar-brand{
 }
 
 /*End Header*/
+
+/*Dropdown Buttons*/
+.dropdown {
+  position: relative;
+  margin: 1px;
+}
+
+.dropbtn {
+  background-color: transparent;
+  border:none;
+  font-size: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFC300;
+  min-width: 100px;
+  z-index: 1;
+  padding: 10px;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  font-family: 'Kumbh Sans';
+  font-size: 30px !important;
+  color: black !important;
+  transition: 0.5s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
 
