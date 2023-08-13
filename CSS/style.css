@@ -32,8 +32,9 @@ header{
 
 a{
   font-family: 'Kumbh Sans';
-  font-size: 30px !important;
+  font-size: 2vw !important;
   color: black !important;
+  margin-top: 1px;
   transition: 0.5s;
 }
 
@@ -42,7 +43,7 @@ a:hover{
   transition: 0.2s;
 }
 
-a.navbar-brand{
+a .navbar-brand{
   font-family: 'NTR';
   font-size: 30px;
   color: black;
@@ -78,7 +79,8 @@ a.navbar-brand{
 .dropbtn {
   background-color: transparent;
   border:none;
-  font-size: 30px;
+  font-size: 2vw;
+  margin-top: 2px;
 }
 
 .dropbtn:hover {
@@ -98,7 +100,7 @@ a.navbar-brand{
 .dropdown-content a {
   text-decoration: none;
   font-family: 'Kumbh Sans';
-  font-size: 30px !important;
+  font-size: 2vw !important;
   color: black !important;
   transition: 0.5s;
 }
