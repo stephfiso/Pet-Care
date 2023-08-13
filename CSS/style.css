@@ -32,7 +32,7 @@ header{
 
 a{
   font-family: 'Kumbh Sans';
-  font-size: 25px !important;
+  font-size: 20px !important;
   color: black !important;
   margin-top: 1px;
   transition: 0.5s;
@@ -79,7 +79,7 @@ a .navbar-brand{
 .dropbtn {
   background-color: transparent;
   border:none;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 2px;
 }
 
@@ -100,7 +100,7 @@ a .navbar-brand{
 .dropdown-content a {
   text-decoration: none;
   font-family: 'Kumbh Sans';
-  font-size: 25px !important;
+  font-size: 20px !important;
   color: black !important;
   transition: 0.5s;
 }
