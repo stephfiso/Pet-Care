@@ -1,0 +1,31 @@
+.jumbotronSignup{
+    height: 555px;
+    padding-top: 2%;
+    background-image: url(../images/Login-Blue.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+.mb-3 {
+    padding: .3%;
+    width: 50%;
+    align-items: center;
+}
+
+.signupButton {
+    padding: .2%;
+    background-color: #E9760B;
+    color: white;
+    outline: none;
+    justify-content: center;
+}
+
+.signupTitle {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 100px;
+    font-size: xx-large;
+}
