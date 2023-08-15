@@ -1,0 +1,14 @@
+.navbar-custom {
+    background-color: #FFC300;
+}
+
+.navbar-brand {
+    font-family: 'Nova Script';
+    color: #000;
+    
+}
+
+@font-face {
+    font-family: "Nova Script";
+    src: url('../Fonts/NovaScript-Regular.ttf') format('ttf');
+}
