@@ -138,15 +138,6 @@ a .navbar-brand{
   font-family: 'Kumbh Sans';
 }
 
-.jumbotronSignup{
-  height: 555px;
-  padding-top: 2%;
-  background-image: url(../images/Login-Blue.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 .display-4{
   margin-top: 4%;
   text-shadow: 2px 2px 8px black;
