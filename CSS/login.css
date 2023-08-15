@@ -180,7 +180,90 @@ header{
     height: 7vh;
 }
 
-  /*Start Body*/
+/*Start Login*/
+
+.card {
+  border-color: transparent;
+  padding-bottom: 7vh;
+  background-color: transparent;
+  margin-top: -55px;
+}
+
+.card-header {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Arimo';
+  font-size: 5vh;
+}
+
+#topform {
+  padding-bottom: 20px !important;
+}
+
+.custom-form .form-group {
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+.form-control {
+  border-color: #E9760B !important;
+  height: 50px;
+  border-radius: 15px;
+}
+
+input {
+  font-family: 'kumbh Sans';
+} 
+
+.custom-btn-primary {
+  background-color: #034EFD;
+  color: #FFF;
+  font-family: 'Kumbh Sans';
+  font-weight: 500;
+  font-size: 15px;
+  height: 50px;
+  width: 20vh;
+  border-radius: 15px;
+}
+
+.custom-links {
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.custom-links a {
+  font-family: 'kumbh sans';
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #034EFD !important;
+}
+
+.custom-links a:hover {
+  color: #E9760B !important;
+  transition: 0.2s;
+}
+
+.card-footer {
+  text-align: center;
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: -30px;
+}
+
+.card-footer a {
+  font-family: 'Kumbh Sans';  
+  color: #034EFD !important;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/*End Login*/
+
+/*Start Body*/
   
   body{
   
@@ -213,3 +296,13 @@ header{
     margin-right: 10%;
   }
   /*End Footer*/
+
+  @font-face {
+    font-family: 'Arimo';
+    src: url('../Fonts/Arimo-VariableFont_wght.ttf');
+  }
+
+  @font-face {
+    font-family: 'Kumbh Sans';
+    src: url('../Fonts/Kumbh/KumbhSans-VariableFont_YOPQ\,wght.ttf');
+  }
