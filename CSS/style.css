@@ -5,6 +5,11 @@ header{
   margin-right: 10%;
 
 }
+#logo{
+  width: 60px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
 
 #background{
   background-color: #FFC300;
