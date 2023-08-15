@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/kumbh-sans" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/ntr" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/nikoProfile.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Profile Page</title>
+</head>
+<body>
+
+  <!--Header-->
+<div id="background">
+  <header id="content">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="./index.html">Pet Level Midnight</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <div class="dropdown">
+              <button class="dropbtn">Pet Info <img src='./images/chevron.png' width="20"></button>
+              <!--dropdown content-->
+              <div class="dropdown-content">
+                <a href="#">Breeds</a>
+                <a href="#">Health</a>
+                <a href="#">Care</a>
+                <a href="#">Training</a>
+              </div>
+            </div>
+          </li>
+
+
+
+          <li class="nav-item active">
+            <div class="dropdown">
+              <button class="dropbtn">Community <img src='./images/chevron.png' width="20"></button>
+              <!--dropdown content-->
+              <div class="dropdown-content">
+                <a href="#">Forums</a>
+                <a href="#">Reviews</a>
+                <a href="#">Events</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item item2">
+            <a class="nav-link" href="#">Records</a>
+          </li>
+          <li class="nav-item item2">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <a class="prof" href="./login.html"><img id="profImage" src="./images/profile.png"></a>
+          <a class="prof" href="./profile.html"><img id="profImage" src="./images/settings.png"></a>
+        </span>
+      </div>
+    </nav>
+  </header>
+</div>
+<!--Header-->
+
+
+
+<!--Body-->
+<div class="petGrid">
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Your Pets...</h5>
+        <h5 class="card-title"><a href="./nikoProfile.html"><img class="pets" src="./images/NikoNS.png"></a> <a href="./maxProfile.html"><img class="pets" src="./images/golden2.png"></a> <a href="#"><img class="pets" src="./images/NylaS.png"></a> <a href="#"><img id="plus" src="./images/plus2.png"></a></h5>
+        <div class="facts">
+          <p class="card-text2"><img id="nikoFact" src="./images/NylaFact.png"></p>
+        </div>
+        <h5 class="card-title">Records...</h5>
+        <div class="facts2">
+          <div class="docControl">
+            <p><a href="#"><img class="docs" src="./images/Labs.png"></a> <a href="#"><img class="docs" src="./images/Vax.png" ></a> <a href="#"><img class="docs" src="./images/Visits.png" ></a> <a href="#"><img id="plus" src="./images/plus2.png"></a></p>
+          </div>
+          </div>
+
+          <h5 class="card-title">Contacts...</h5>
+        <div class="facts2">
+          <div class="docControl">
+            <p><a href="#"><img class="docs" src="./images/Marco.png"></a> <a href="#"><img class="docs" src="./images/allysa.png" ></a> <a href="#"><img class="docs" src="./images/Chelsea.png" ></a> <a href="#"><img id="plus" src="./images/plus2.png"></a></p>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card card2">
+      <div class="card-body">
+        <h5 class="card-title">Upcoming Events/Reminders</h5>
+        <div class="calendar">
+          <p class="card-text"><a><img id="nikoCal" src="./images/NylaCal.png"></a></p>
+
+        </div>
+        <div class="calendar2">
+          <h5 class="card-title2">Add an Event/Reminder?</h5>
+          <p class="card-text">
+
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Event Name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Date">
+                </div>
+              </div>
+            </form>
+
+            <form>
+              <div class="row">
+                <div class="col formgap">
+                  <input type="text" class="form-control" placeholder="Occurance Type">
+                </div>
+                <div class="col formgap">
+                  <input type="text" class="form-control" placeholder="Time">
+                </div>
+              </div>
+            </form>
+
+            <form>
+              <div class="row">
+                <div class="col formgap">
+                  <input type="text" class="form-control form-control2" placeholder="Notes">
+                </div>
+
+              </div>
+            </form>
+          </p>
+          <div class="btn2">
+          <a href="#" class=" btn btn-primary addButton">Add <img id="plus" src="./images/plus2.png"></a>    
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="petGrid">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Community...</h5>
+      <h5 class="card-title"><img class="community" src="./images/Community.png"></h5>
+    </div>
+  </div>
+</div>
+
+<div class="petGrid petGrid2">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Suggested For You...</h5>
+      <h5 class="card-title"><img class="suggested" src="./images/Suggested.png"></h5>
+    </div>
+  </div>
+</div>
+
+
+<!--Body-->
+
+
+
+
+
+
+
+<!--Footer-->
+  <div id="background">
+  <footer>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Site Map</a>
+          </li>
+          <li class="nav-item item2">
+            <a class="nav-link" href="#">Privacy Policy</a>
+          </li>
+          <li class="nav-item item2">
+            <a class="nav-link" href="#">Terms & Conditions</a>
+          </li>
+
+
+        </ul>
+        <span class="navbar-text">
+          <a class="nav-link" href="#">Contact Us</a>
+        </span>
+      </div>
+    </nav>
+  </footer>
+</div>
+<!--Footer-->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src ="JS/Script.js"></script>
+</body>
+</html>
