@@ -24,6 +24,7 @@ header{
 
 
 
+
 #settingsIcon{
   width: 30px;
   height: auto;
@@ -159,10 +160,7 @@ a .navbar-brand{
   box-shadow: 2px 2px 50px black;;
 }
 
-.btn{
-  background-color: #E9760B;
 
-}
 
 
 /*End Hero*/
@@ -202,8 +200,3 @@ footer{
   margin-right: 10%;
 }
 /*End Footer*/
-
-
-
-
-
