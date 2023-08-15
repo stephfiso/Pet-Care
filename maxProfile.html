@@ -67,6 +67,57 @@
 </div>
 <!--Header-->
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+
+      </div>
+      <div class="modal-body">
+        <p class="card-text">
+
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="fill form-control" placeholder="Pet Type">
+              </div>
+              <div class="col">
+                <input type="text" class="fill form-control" placeholder="Name">
+              </div>
+            </div>
+          </form>
+
+          <form>
+            <div class="row">
+              <div class="col formgap">
+                <input type="text" class="fill form-control" placeholder="Breed">
+              </div>
+              <div class="col formgap">
+                <input type="text" class="fill form-control" placeholder="Age">
+              </div>
+            </div>
+          </form>
+
+          <form>
+            <div class="row">
+              <div class="col formgap">
+                <input type="text" class="fill form-control form-control2" placeholder="Notes">
+              </div>
+
+            </div>
+          </form>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btnL btn2 btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <a href="./rockieProfile.html"><button type="button" class="btnM btn2 btn btn-primary">Save changes</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal-->
 
 
 <!--Body-->
@@ -76,7 +127,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Your Pets...</h5>
-        <h5 class="card-title"><a href="./nikoProfile.html"><img class="pets" src="./images/NikoNS.png"></a> <a href="./maxProfile.html"><img class="pets" src="./images/MaxS.png"></a> <a href="./nylaProfile.html"><img class="pets" src="./images/cat2.png"></a> <a href="#"><img id="plus" src="./images/plus2.png"></a></h5>
+        <h5 class="card-title"><a href="./nikoProfile.html"><img class="pets" src="./images/NikoNS.png"></a> <a href="./maxProfile.html"><img class="pets" src="./images/MaxS.png"></a> <a href="./nylaProfile.html"><img class="pets" src="./images/cat2.png"></a> <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img id="plus" src="./images/plus2.png"></a></h5>
         <div class="facts">
           <p class="card-text2"><img id="nikoFact" src="./images/MaxFact.png"></p>
         </div>
