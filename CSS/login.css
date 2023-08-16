@@ -67,7 +67,7 @@ header{
   }
   
   .nav-link{
-    padding-bottom: 0%;
+    /*padding-bottom: 0%;*/
   }
   
   .navbar-text{
@@ -221,8 +221,7 @@ input {
   font-family: 'Kumbh Sans';
   font-weight: 500;
   font-size: 15px;
-  height: 50px;
-  width: 20vh;
+  padding: 12px 24px;
   border-radius: 15px;
 }
 
@@ -233,7 +232,7 @@ a #loginButton {
 .custom-links {
   justify-content: space-between;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 10px;
 }
 
