@@ -67,7 +67,7 @@ header{
   }
   
   .nav-link{
-    padding-bottom: 0%;
+    /*padding-bottom: 0%;*/
   }
   
   .navbar-text{
@@ -221,24 +221,27 @@ input {
 
 .custom-btn-primary {
   background-color: #034EFD;
-  color: #FFF;
+  color: #FFF !important;
   font-family: 'Kumbh Sans';
   font-weight: 500;
   font-size: 15px;
-  height: 50px;
-  width: 20vh;
+  padding: 12px 24px;
   border-radius: 15px;
+}
+
+a #loginButton {
+  margin-top: 5px;
 }
 
 .custom-links {
   justify-content: space-between;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 10px;
 
 }
 
-.custom-links a {
+.custom-links .forgotPassword {
   font-family: 'kumbh sans';
   text-decoration: none;
   font-size: 15px;
@@ -246,7 +249,7 @@ input {
   color: #034EFD !important;
 }
 
-.custom-links a:hover {
+.custom-links .forgotPassword:hover {
   color: #E9760B !important;
   transition: 0.2s;
 }
