@@ -217,13 +217,17 @@ input {
 
 .custom-btn-primary {
   background-color: #034EFD;
-  color: #FFF;
+  color: #FFF !important;
   font-family: 'Kumbh Sans';
   font-weight: 500;
   font-size: 15px;
   height: 50px;
   width: 20vh;
   border-radius: 15px;
+}
+
+a #loginButton {
+  margin-top: 5px;
 }
 
 .custom-links {
@@ -233,7 +237,7 @@ input {
   margin-top: 10px;
 }
 
-.custom-links a {
+.custom-links .forgotPassword {
   font-family: 'kumbh sans';
   text-decoration: none;
   font-size: 15px;
@@ -241,7 +245,7 @@ input {
   color: #034EFD !important;
 }
 
-.custom-links a:hover {
+.custom-links .forgotPassword:hover {
   color: #E9760B !important;
   transition: 0.2s;
 }
