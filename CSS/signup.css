@@ -180,7 +180,7 @@ header{
     height: 7vh;
 }
 
-/*Start Login*/
+/*Start Signup*/
 
 .card {
   border-color: transparent;
@@ -215,6 +215,7 @@ input {
   font-family: 'kumbh Sans';
 } 
 
+
 .custom-btn-primary {
   background-color: #034EFD;
   color: #FFF;
@@ -222,46 +223,32 @@ input {
   font-weight: 500;
   font-size: 15px;
   height: 50px;
-  width: 20vh;
+  width: 35vh;
   border-radius: 15px;
 }
 
-.custom-links {
-  justify-content: space-between;
-  display: flex;
-  align-items: flex-end;
-  margin-top: 10px;
+.custom-btn-primary.disabled {
+    background-color: #c3c3bf;
+    border-color: #c3c3bf;
+    color: white;
 }
 
-.custom-links a {
-  font-family: 'kumbh sans';
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 500;
-  color: #034EFD !important;
+.custom-btn-primary:hover:not([disabled]) {
+    background-color: #E9760B; 
+    border-color: #E9760B
 }
-
-.custom-links a:hover {
-  color: #E9760B !important;
-  transition: 0.2s;
+.create-account {
+  text-align: center !important;
+  margin-top: -25px;
 }
 
 .card-footer {
-  text-align: center;
-  background-color: transparent;
-  border-color: transparent;
-  margin-top: -30px;
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.card-footer a {
-  font-family: 'Kumbh Sans';  
-  color: #034EFD !important;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 500;
-}
 
-/*End Login*/
+/*End Signup*/
 
 /*Start Body*/
   
