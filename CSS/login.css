@@ -9,7 +9,7 @@ header{
   #logo{
     width: 60px;
     padding-right: 5px;
-    padding-bottom: 5px;
+    margin-top: -10px;
   }
   
   #background{
@@ -86,9 +86,13 @@ header{
     background-color: transparent;
     border:none;
     font-size: 20px;
-    margin-top: 2px;
+    
   }
-  
+
+  .two {
+    margin-top: 1px;
+  }
+    
   .dropbtn:hover {
     color: #034EFD;
     transition: 0.2s;
@@ -231,7 +235,7 @@ input {
   display: flex;
   align-items: flex-end;
   margin-top: 10px;
-  
+
 }
 
 .custom-links a {
