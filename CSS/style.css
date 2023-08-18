@@ -145,7 +145,7 @@ a .navbar-brand{
 
 /*Start Hero*/
 .jumbotron{
-  height: 350px;
+  height: 50vh;
   padding-top: 2%;
   background-image: url(../images/hero.jpg);
   background-size: cover;
