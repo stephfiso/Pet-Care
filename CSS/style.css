@@ -123,7 +123,7 @@ a .navbar-brand{
 
 /*Media Queries*/
 
-@media screen and (min-width: 568px) and (max-width: 991px)  {
+@media screen and (min-width: 770px) and (max-width: 1800px)  {
   .display-4 {
     font-size: 4vh !important;
   }
@@ -133,7 +133,7 @@ a .navbar-brand{
   }
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 769px) {
   .display-4 {
     font-size: 3vh !important;
   }
@@ -169,7 +169,7 @@ a .navbar-brand{
 .display-4{
   margin-top: 4%;
   text-shadow: 2px 2px 8px black;
-  font-size: 7vh;
+  font-size: 5vh;
 }
 
 .lead{
